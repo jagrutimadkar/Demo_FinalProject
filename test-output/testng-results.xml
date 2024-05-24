@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T14:07:27 IST" name="Default suite" finished-at="2024-05-15T14:08:14 IST" duration-ms="47110">
+    <groups>
+    </groups>
+    <test started-at="2024-05-15T14:07:27 IST" name="Default test" finished-at="2024-05-15T14:08:14 IST" duration-ms="47110">
+      <class name="testcases.VerifyLogin">
+        <test-method signature="verifyLoginButton()[pri:1, instance:testcases.VerifyLogin@4b013c76]" started-at="2024-05-15T14:07:27 IST" name="verifyLoginButton" finished-at="2024-05-15T14:08:09 IST" duration-ms="41984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButton -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.VerifyLogin@4b013c76]" started-at="2024-05-15T14:08:09 IST" name="closeDriver" finished-at="2024-05-15T14:08:14 IST" duration-ms="5022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testcases.VerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
