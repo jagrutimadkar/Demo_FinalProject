@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.VerifyLogin">
+      <class name="com.LoginPage.www.VerifyLogin">
         <methods>
-          <include name="verifyLoginButton"/>
           <include name="closeDriver"/>
+          <include name="verifyLoginButton"/>
         </methods>
-      </class> <!-- testcases.VerifyLogin -->
+      </class> <!-- com.LoginPage.www.VerifyLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

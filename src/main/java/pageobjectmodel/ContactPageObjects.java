@@ -9,10 +9,11 @@ public class ContactPageObjects {
 	public WebDriver d;
 	
 	private By ContactDetailstab=By.xpath("//a[text()='Contact Details']");
-	private By workingemailfield=By.xpath("(//input[@class='oxd-input oxd-input--active'])[10]");
+	//	private By workingemailfield=By.xpath("(//input[@class='oxd-input oxd-input--active'])[10]");
+	private By workingemailfield=By.xpath("//div[3]//div[1]//div[1]//div[1]//div[2]//input[1]");
 	private By otheremailfield=By.xpath("//div[3]//div[1]//div[2]//div[1]//div[2]//input[1]");
 	private By savebtn=By.xpath("//button[normalize-space()='Save']");
-	
+	//private By popup=By.xpath("//html[1]/body[1]/div[1]/div[2]/div[1]");
 	
 	public ContactPageObjects(WebDriver d2)
 	{
@@ -35,7 +36,7 @@ public class ContactPageObjects {
 	
 	public WebElement clickonSave()
 	{
-		return d.findElement(savebtn);
+		return (d.findElement(savebtn));
 	}
 
 }
